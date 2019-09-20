@@ -1,0 +1,7 @@
+TODO:
+	META TAGS/SEO
+	About me section
+	Projects
+	Lint
+	Push to github
+	Deployment
