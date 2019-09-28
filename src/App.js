@@ -1,21 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
 } from 'react-router-dom'
 import { Container } from 'semantic-ui-react';
 
-import Nawigacja from './components/PL/Nawigacja'
 import PortfolioPL from './components/PL/PortfolioPL'
-import CVpl from './components/PL/CVpl'
-import FormularzKontaktowy from './components/PL/FormularzKontaktowy'
-
-import Navbar from './components/EN/Navbar'
 import PortfolioEN from './components/EN/PortfolioEN'
-import CVen from './components/EN/CVen'
-import ContactForm from './components/EN/ContactForm'
 
-import photo from './assets/photo.jpg'
 import jslogo from './assets/javascript.svg'
 import nodelogo from './assets/nodejs.svg'
 import bootsraplogo from './assets/bootstrap.svg'
@@ -27,12 +19,11 @@ import semanticuilogo from './assets/semanticui.png'
 import webpacklogo from './assets/webpack.png'
 import apollologo from './assets/apollo.png'
 import csslogo from './assets/css.png'
-import gitlogo from './assets/git.svg'
-
+import gitlogo from './assets/git.png'
+import typescriptlogo from './assets/typescript.png'
 
 
 const App = () => {
-  const [language, setLanguage] = useState('pl')
 
   const technologies = [
     {
@@ -94,25 +85,21 @@ const App = () => {
       name: 'CSS',
       img: csslogo,
       id: 12
+    },
+    {
+      name: 'TypeScript',
+      img: typescriptlogo,
+      id: 13
     }
   ]
 
-
   return(
-    <Container>
-      <Router>
-        {language === 'pl' 
-          ? <Nawigacja changeLanguage={setLanguage} />
-          : <Navbar changeLanguage={setLanguage} />
-        }
-        <Route exact path='/' render={() => <PortfolioPL photo={photo} technologies={technologies} />} />
-        <Route exact path='/cv' render={() => <CVpl />} />
-        <Route exact path='/kontakt' render={() => <FormularzKontaktowy />} />
-        <Route exact path='/en' render={() => <PortfolioEN photo={photo} technologies={technologies} />} />
-        <Route exact path='/en/cv' render={() => <CVen />} />
-        <Route exact path='/en/contact' render={() => <ContactForm />} />
-      </Router>
-    </Container>
+      <Container>
+        <Router>
+          <Route exact path='/' render={() => <PortfolioPL technologies={technologies} />} />
+          <Route exact path='/en' render={() => <PortfolioEN technologies={technologies} />} />
+        </Router>
+      </Container>
   )
 }
 

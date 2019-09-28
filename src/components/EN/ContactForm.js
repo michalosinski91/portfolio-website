@@ -16,7 +16,7 @@ const ContactForm = () => {
     }
 
     return(
-        <Grid textAlign='center' style={{ marginTop: '50px' }}>
+        <Grid textAlign='center' style={{ margin: '25px' }}>
             <Grid.Column style={{ maxWidth: '600px' }}>
                 <Header as='h2' textAlign='center'>
                     Use the form for any of your enquiries

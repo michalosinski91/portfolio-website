@@ -2,6 +2,8 @@ TODO:
 	META TAGS/SEO
 	About me section
 	Projects
+	Contact form submission
 	Lint
+	Color scheme
 	Push to github
 	Deployment

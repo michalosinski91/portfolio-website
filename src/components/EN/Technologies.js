@@ -3,15 +3,15 @@ import { Container, Card, Header, Image } from 'semantic-ui-react'
 
 const Technologies = ({ technologies }) => {
     return(
-        <Container>
+        <Container style={{ margin: '30px'}}>
             <Header as='h2' textAlign='center'>
-                Technologies I work with
+                Technologies I currently use or am studying
             </Header>
             <Card.Group centered stackable style={{ marginTop: '30px' }}>
                 {technologies.map(tech => 
                     <Card key={tech.id} style={{ width: '200px'}}>
                         <Card.Content >  
-                            <Image src={tech.img} size='small' style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto'}} />
+                            <Image src={tech.img} size='tiny' style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto'}} />
                             <Card.Header textAlign='center' style={{ marginTop: '10px'}}>{tech.name}</Card.Header>
                         </Card.Content>
                     </Card>

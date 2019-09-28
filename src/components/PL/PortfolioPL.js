@@ -1,13 +1,18 @@
 import React from 'react'
+
+import Nawigacja from './Nawigacja'
 import OMnie from './OMnie'
 import Projekty from './Projekty'
 import Technologie from './Technologie'
 
-const PortfolioPL = ({ photo, technologies}) => {
+const PortfolioPL = ({ technologies }) => {
     return(
         <>
-            <OMnie photo={photo} />
+            <Nawigacja />
+            <OMnie />
+            <hr />
             <Projekty />
+            <hr />
             <Technologie technologies={technologies} />
         </>
     )
