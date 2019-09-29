@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import { Menu, Flag, Container } from 'semantic-ui-react'
+import { Menu, Flag, Container, Image } from 'semantic-ui-react'
+import MOlogo from '../../assets/MOlogo.png'
 
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
             <Menu secondary size='large'>
                 <Menu.Menu position='left'>
                     <Menu.Item>
-                        LOGO
+                    <Image src={MOlogo} size='mini' />
                     </Menu.Item>
                 </Menu.Menu>
                 <Menu.Menu position="right">

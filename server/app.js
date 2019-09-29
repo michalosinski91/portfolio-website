@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const ContactEntry = require('./Model/ContactEntry')
 
 const app = express()
+app.use(express.static('build'))
 app.use(cors())
 app.use(bodyParser.json())
 
@@ -28,6 +29,20 @@ app.post('/', (req, res) => {
         })
 })
 
-app.listen(process.env.PORT, () => {
-    console.log('server running')
+app.get('*', (req, res) => {
+	res.redirect('/')
+})
+
+
+/*
+const unknownEndpoint = (req, res) => {
+    res.status(404).send({ error: 'unknown endpoint'})
+}
+
+app.use(unknownEndpoint)
+*/
+const PORT = process.env.PORT || 3001
+
+app.listen(PORT, () => {
+    console.log(`server running on port ${PORT}`)
 })

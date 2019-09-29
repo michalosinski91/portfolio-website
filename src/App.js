@@ -2,6 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
+  Switch
 } from 'react-router-dom'
 import { Container } from 'semantic-ui-react';
 
@@ -93,11 +94,23 @@ const App = () => {
     }
   ]
 
+  const NoMatch = ({ location }) => {
+    return (
+      <div>
+          <p>Path {location.pathname} does not exist. Go to <a href='http://michalosinski.dev/en'>homepage</a></p>
+          <p>Ścieżka {location.pathname} nie istnieje. Przejdź do Go to <a href='http://michalosinski.dev/'>strony głównej</a></p>
+      </div>
+    )
+  }
+
   return(
       <Container>
         <Router>
-          <Route exact path='/' render={() => <PortfolioPL technologies={technologies} />} />
-          <Route exact path='/en' render={() => <PortfolioEN technologies={technologies} />} />
+          <Switch>
+            <Route exact path='/' render={() => <PortfolioPL technologies={technologies} />} />
+            <Route exact path='/en' render={() => <PortfolioEN technologies={technologies} />} />
+            <Route path='*' render={() => <NoMatch />} />
+          </Switch>
         </Router>
       </Container>
   )

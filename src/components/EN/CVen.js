@@ -14,7 +14,7 @@ const CVen = () => {
                     <div className='aside-contact'>
                         <div className='aside-contact-links'>
                             <p><a className='link-white' href='mailto:hello@michalosinski.dev'><span className='icon emailIcon'></span>michal@michalosinski.dev</a></p>
-                            <p><a className='link-white' href='http://www.michalosinski.dev/en' target='blank'><span className='icon webIcon'></span>michalosinski.dev</a></p>
+                            <p><a className='link-white' href='http://www.michalosinski.dev' target='blank'><span className='icon webIcon'></span>michalosinski.dev</a></p>
                             <p><a className='link-white' href='https://www.linkedin.com/in/michalosinski91' target='blank'><span className='icon linkedInIcon'></span>/in/michalosinski91</a></p>
                             <p><a className='link-white' href='https://github.com/michalosinski91' target='blank'><span className='icon githubIcon'></span>/michalosinski91</a></p>
                         </div>
