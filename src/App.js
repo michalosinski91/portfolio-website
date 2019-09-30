@@ -22,6 +22,8 @@ import apollologo from './assets/apollo.png'
 import csslogo from './assets/css.png'
 import gitlogo from './assets/git.png'
 import typescriptlogo from './assets/typescript.png'
+import expresslogo from './assets/express.svg'
+import htmllogo from './assets/html.svg'
 
 
 const App = () => {
@@ -90,6 +92,16 @@ const App = () => {
     {
       name: 'TypeScript',
       img: typescriptlogo,
+      id: 13
+    },
+    {
+      name: 'Express',
+      img: expresslogo,
+      id: 13
+    },
+    {
+      name: 'HTML5',
+      img: htmllogo,
       id: 13
     }
   ]

@@ -5,7 +5,7 @@ const Technologies = ({ technologies }) => {
     return(
         <Container style={{ margin: '30px'}}>
             <Header as='h2' textAlign='center'>
-                Technologies I currently use or am studying
+                Technologies I currently use or am currently studying
             </Header>
             <Card.Group centered stackable style={{ marginTop: '30px' }}>
                 {technologies.map(tech => 

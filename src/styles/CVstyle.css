@@ -14,7 +14,7 @@
 
 aside {
     width: 100%;
-    background: #d46504;
+    background: #d42d17;
     padding: 10px;   
     color: #fafafa; 
 }
@@ -76,7 +76,7 @@ main {
 }
 
 article {
-    border-bottom: 4px solid #d46504;
+    border-bottom: 4px solid #d42d17;
     padding: 10px 0;
 }
 
@@ -113,7 +113,7 @@ article:last-child {
 }
 
 .link-black:hover {
-    color: #d46504
+    color: #d42d17
 }
 
 .link-white {
@@ -129,7 +129,7 @@ article:last-child {
 
 footer {
     width: 100%;
-    background: #d46504;
+    background: #d42d17;
     text-align: center;
     padding: 25px;
     color: white;

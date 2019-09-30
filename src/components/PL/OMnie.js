@@ -8,8 +8,11 @@ import CVpl from './CVpl'
 const OMnie = () => {
     return(
         <Container style={{ marginBottom: '30px'}}>
-            <Header as='h1' textAlign='center' style={{ marginTop: '50px' }}>Michał Osiński</Header>
-            <Header as='h3' textAlign='center' style={{ marginTop: '30px' }}>Web Developer</Header>
+            <Header as='h1' textAlign='center' style={{ marginTop: '50px', fontSize: '44px' }}>Witam, jestem <strong style={{ color: '#d42d17'}}>Michał Osiński</strong></Header>
+            <Header as='h3' textAlign='center' style={{ marginTop: '10px', fontSize: '30px' }}>Programista Full-Stack</Header>
+            <Container textAlign='center' style={{ marginTop: '50px'}}>
+                <p style={{ fontSize: '18px'}}>Potrzebujesz programisty web dla swojej firmy? <strong>Jesteś w dobrym miejscu!</strong> Skontaktuj się używając poniższych linków.</p>  
+            </Container>
             <Grid centered style={{ margin: '45px'}}>                        
                 <Button color='google plus' style={{ marginTop: '15px', minWidth: '275px' }} as='a' href='https://www.linkedin.com/in/michalosinski91' target='blank'>
                     <Icon name='linkedin' /> michalosinski91
@@ -39,7 +42,6 @@ const OMnie = () => {
                     <Icon name='download' /> CV (pobierz PDF)
                 </Button>
             </Grid>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis tincidunt nibh, quis laoreet lorem pulvinar a. Fusce ut massa scelerisque, aliquam metus a, pretium elit. Suspendisse sit amet dui a lorem tempus luctus. Nam fermentum sapien eu enim mattis, a tristique arcu sagittis. Nunc mattis nulla quis tortor ullamcorper consectetur. In hac habitasse platea dictumst. Proin imperdiet aliquet tortor, non sagittis eros aliquet et. Curabitur ac pulvinar nisl, ut lobortis sem. Donec varius odio eros. Suspendisse sit amet fermentum lorem, in hendrerit tellus. Vivamus efficitur ligula eu elit rhoncus luctus. Vivamus commodo massa vel suscipit malesuada. Suspendisse faucibus lacinia ligula id elementum. Nam sed ornare lacus. Morbi feugiat tempus magna vel gravida.</p>
         </Container>
     )
 }

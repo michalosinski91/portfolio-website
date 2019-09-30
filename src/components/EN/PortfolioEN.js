@@ -11,9 +11,9 @@ const PortfolioPL = ({ technologies}) => {
             <Navbar />
             <AboutMe />
             <hr />
-            <Projects />
-            <hr />
             <Technologies technologies={technologies} />
+            <hr />
+            <Projects />
         </>
     )
 }
