@@ -4,8 +4,9 @@ import Navbar from './Navbar'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
 import Technologies from './Technologies'
+import Footer from '../Footer'
 
-const PortfolioPL = ({ technologies}) => {
+const PortfolioEN = ({ technologies}) => {
     return(
         <>
             <Navbar />
@@ -14,8 +15,9 @@ const PortfolioPL = ({ technologies}) => {
             <Technologies technologies={technologies} />
             <hr />
             <Projects />
+            <Footer />
         </>
     )
 }
 
-export default PortfolioPL
+export default PortfolioEN

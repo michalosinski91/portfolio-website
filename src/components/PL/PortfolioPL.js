@@ -4,6 +4,7 @@ import Nawigacja from './Nawigacja'
 import OMnie from './OMnie'
 import Projekty from './Projekty'
 import Technologie from './Technologie'
+import Footer from '../Footer'
 
 const PortfolioPL = ({ technologies }) => {
     return(
@@ -14,6 +15,7 @@ const PortfolioPL = ({ technologies }) => {
             <Technologie technologies={technologies} />
             <hr />
             <Projekty />
+            <Footer />
         </>
     )
 }
