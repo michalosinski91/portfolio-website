@@ -4,8 +4,8 @@ import { Container, Card, Header, Image } from 'semantic-ui-react'
 const Technologies = ({ technologies }) => {
     return(
         <Container style={{ margin: '30px'}}>
-            <Header as='h2' textAlign='center'>
-                Technologies I currently use or am currently studying
+            <Header style={{ fontSize: '28px'}} textAlign='center'>
+                Technologies I am currently using
             </Header>
             <Card.Group centered stackable style={{ marginTop: '30px' }}>
                 {technologies.map(tech => 

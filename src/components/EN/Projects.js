@@ -6,8 +6,8 @@ import logo from '../../assets/MOlogo.png'
 const Projects = () => {
     return (
         <>
-            <Header as='h2' textAlign='center'>
-                Recent projects
+            <Header style={{ fontSize: '28px', margin: '30px 0' }} textAlign='center'>
+                Recent work examples
             </Header>
             <Item.Group divided>
                 <Item>

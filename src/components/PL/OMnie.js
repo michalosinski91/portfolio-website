@@ -9,11 +9,11 @@ const OMnie = () => {
     return(
         <Container style={{ marginBottom: '30px'}}>
             <Header as='h1' textAlign='center' style={{ marginTop: '50px', fontSize: '44px' }}>Witam, jestem <strong style={{ color: '#d42d17'}}>Michał Osiński</strong></Header>
-            <Header as='h3' textAlign='center' style={{ marginTop: '10px', fontSize: '30px' }}>Programista Full-Stack</Header>
+            <Header as='h3' textAlign='center' style={{ marginTop: '10px', fontSize: '30px' }}>Programista Web Full-Stack</Header>
             <Container textAlign='center' style={{ marginTop: '50px'}}>
                 <p style={{ fontSize: '18px'}}>Potrzebujesz programisty web dla swojej firmy? <strong>Jesteś w dobrym miejscu!</strong> Skontaktuj się używając poniższych linków.</p>  
             </Container>
-            <Grid centered style={{ margin: '45px'}}>                        
+            <Grid centered style={{ margin: '35px'}}>                        
                 <Button color='google plus' style={{ marginTop: '15px', minWidth: '275px' }} as='a' href='https://www.linkedin.com/in/michalosinski91' target='blank'>
                     <Icon name='linkedin' /> michalosinski91
                 </Button>

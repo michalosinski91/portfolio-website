@@ -8,7 +8,7 @@ const AboutMe = () => {
     return(
         <Container style={{ marginBottom: '30px'}}>
             <Header as='h1' textAlign='center' style={{ marginTop: '50px', fontSize: '44px' }}>Hi, I'm <strong style={{ color: '#d42d17'}}>Michal Osinski</strong></Header>
-            <Header as='h3' textAlign='center' style={{ marginTop: '10px', fontSize: '30px' }}>I'm a Full-Stack Web Developer</Header>
+            <Header as='h3' textAlign='center' style={{ marginTop: '10px', fontSize: '30px' }}>Full-Stack Web Developer</Header>
             <Container textAlign='center' style={{ marginTop: '50px'}}>
                 <p style={{ fontSize: '18px'}}>Are you looking to hire a web developer for your team? <strong>You're in the right place!</strong> Please use the links below to get in touch.</p>  
             </Container>
