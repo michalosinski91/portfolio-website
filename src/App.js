@@ -97,8 +97,8 @@ const App = () => {
   const NoMatch = ({ location }) => {
     return (
       <div>
-          <p>Path {location.pathname} does not exist. Go to <a href='http://michalosinski.dev/en'>homepage</a></p>
-          <p>Ścieżka {location.pathname} nie istnieje. Przejdź do Go to <a href='http://michalosinski.dev/'>strony głównej</a></p>
+          <p>Path {location.pathname} does not exist. Go to <a href='http://michalosinski.dev'>homepage</a></p>
+          <p>Ścieżka {location.pathname} nie istnieje. Przejdź do Go to <a href='http://michalosinski.dev'>strony głównej</a></p>
       </div>
     )
   }
