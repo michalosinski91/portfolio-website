@@ -1,7 +1,7 @@
 import React from 'react'
-import { Item, Button, Icon, Header } from 'semantic-ui-react'
+import { Item, Button, Icon, Header, Image, Modal } from 'semantic-ui-react'
 
-import screenshot from '../../assets/project.JPG'
+import screenshot from '../../assets/project1.JPG'
 
 const Projects = () => {
     return (
@@ -11,7 +11,9 @@ const Projects = () => {
             </Header>
             <Item.Group divided>
                 <Item>
-                    <Item.Image src={screenshot} size='large' />
+                <Modal trigger={<Item.Image src={screenshot} size='large' />} basic closeIcon>
+                        <Image src={screenshot} size='massive' />
+                    </Modal>
                     <Item.Content>
                         <Item.Header>Animal Shelter web app</Item.Header>
                         <Item.Meta>Environment: JavaScript, React, Apollo, GraphQL, MongoDB, Mongoose, GoogleMaps API, JWT, SemanticUI</Item.Meta>
