@@ -32,9 +32,8 @@ const CVpl = () => {
                         <h3>
                             <span className='icon profileIcon'></span>Profil
                         </h3>
-                        <p>A driven and reliable full-stack web developer, interested 
-                            in building services using modern JavaScript. Passionate 
-                            about learning new skills and technologies. Szukam możliwości 
+                        <p>Solidny i zmotywowany programista web (full-stack), zainteresowany tworzeniem serwisów internetowych z wykorzystaniem JavaScript. 
+                            Poszukuję pracy w której będę mógł wykorzystać nabyte umiejętności oraz rozwijać się zawodowo.
                         </p>
                     </article>
                     <article>
@@ -65,7 +64,7 @@ const CVpl = () => {
                         </h3>
                         <div className='section-subheading'>
                             <h5 className='subheading'>Portal schronisk dla zwierząt</h5>
-                            <p className='p-left-margin'><a className='link-black' href='#' target='blank'><span className='icon githubIcon'></span>Zobacz kod</a></p>
+                            <p className='p-left-margin'><a className='link-black' href='https://github.com/michalosinski91/pet-adoption-client' target='blank'><span className='icon githubIcon'></span>Zobacz kod</a></p>
                             <p className='p-left-margin'><a className='link-black' href='#' target='blank'><span className='icon webIcon'></span>Zobacz aplikację</a></p>
                         </div>
                         <p>

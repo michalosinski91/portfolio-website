@@ -33,8 +33,7 @@ const CVen = () => {
                             <span className='icon profileIcon'></span>Profile
                         </h3>
                         <p>A driven and reliable full-stack web developer, interested in building services using modern JavaScript. 
-                            Passionate about learning new skills and technologies. 
-                            Looking for opportunities to contribute to exciting projects.
+                            Looking for opportunities to contribute to exciting projects, and continue developing new skills and learning new technologies.
                         </p>
                     </article>
                     <article>
@@ -65,7 +64,7 @@ const CVen = () => {
                         </h3>
                         <div className='section-subheading'>
                             <h5 className='subheading'>Animal Shelters web application</h5>
-                            <p className='p-left-margin'><a className='link-black' href='#' target='blank'><span className='icon githubIcon'></span>View code</a></p>
+                            <p className='p-left-margin'><a className='link-black' href='https://github.com/michalosinski91/pet-adoption-client' target='blank'><span className='icon githubIcon'></span>View code</a></p>
                             <p className='p-left-margin'><a className='link-black' href='#' target='blank'><span className='icon webIcon'></span>Open application</a></p>
                         </div>
                         <p>

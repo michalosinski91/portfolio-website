@@ -1,17 +1,17 @@
 import React from 'react'
 import { Item, Button, Icon, Header } from 'semantic-ui-react'
 
-import logo from '../../assets/MOlogo.png'
+import screenshot from '../../assets/project.JPG'
 
 const Projects = () => {
     return (
         <>
             <Header style={{ fontSize: '28px', margin: '30px 0' }} textAlign='center'>
-                Recent work examples
+                Example of what I'm currently working on
             </Header>
             <Item.Group divided>
                 <Item>
-                    <Item.Image src={logo} size='large' />
+                    <Item.Image src={screenshot} size='large' />
                     <Item.Content>
                         <Item.Header>Animal Shelter web app</Item.Header>
                         <Item.Meta>Environment: JavaScript, React, Apollo, GraphQL, MongoDB, Mongoose, GoogleMaps API, JWT, SemanticUI</Item.Meta>
@@ -34,13 +34,13 @@ const Projects = () => {
                         <Item.Description style={{ marginTop: '15px'}}>
                             I am currently working on this application, and the planned changes/additions for the near future include 
                             social media feed (e.g. Twitter) for individual shelters if that particular shelter has an active a social media account on the selected platform, making a donation to a shelter, 
-                            and improvement to the authorization/authentication flow (similar to the one I have implemented in the 'JWT Node' repo described below).
+                            and improvement to the JWT authorization/authentication flow.
                         </Item.Description>
                         <Item.Extra>
                             <Button floated='right' color='green' style={{ marginTop: '15px', minWidth: '150px' }} as='a' href='https://www.linkedin.com/in/michalosinski91' target='blank'>
                                 <Icon style={{ marginBottom: 8 }} size='large' name='globe' /> Open the app (Polish language only)
                             </Button>
-                            <Button floated='right' color='black' style={{ marginTop: '15px', minWidth: '150px', fontSize: '14px' }} as='a' href='https://www.linkedin.com/in/michalosinski91' target='blank'>
+                            <Button floated='right' color='black' style={{ marginTop: '15px', minWidth: '150px', fontSize: '14px' }} as='a' href='https://github.com/michalosinski91/pet-adoption-client' target='blank'>
                                 <Icon style={{ marginBottom: 8 }} size='large' name='github square' inverted /> See the code
                             </Button>
                         </Item.Extra>

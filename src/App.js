@@ -97,12 +97,12 @@ const App = () => {
     {
       name: 'Express',
       img: expresslogo,
-      id: 13
+      id: 14
     },
     {
       name: 'HTML5',
       img: htmllogo,
-      id: 13
+      id: 15
     }
   ]
 

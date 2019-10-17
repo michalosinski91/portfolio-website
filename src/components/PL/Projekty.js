@@ -1,17 +1,17 @@
 import React from 'react'
 import { Item, Button, Icon, Header } from 'semantic-ui-react'
 
-import logo from '../../assets/MOlogo.png'
+import screenshot from '../../assets/project.JPG'
 
 const Projekty = () => {
     return (
         <>
             <Header style={{ fontSize: '28px', margin: '30px 0' }}  textAlign='center'>
-                Przykłady mojej niedawnej pracy
+                Nad czym teraz pracuję
             </Header>
             <Item.Group divided>
                 <Item>
-                    <Item.Image src={logo} size='large' />
+                    <Item.Image src={screenshot} size='large' />
                     <Item.Content>
                         <Item.Header>Portal schronisk dla zwierząt</Item.Header>
                         <Item.Meta>Użyte technologie: JavaScript, React, Apollo, GraphQL, MongoDB, Mongoose, GoogleMaps API, JWT, SemanticUI</Item.Meta>
@@ -37,13 +37,13 @@ const Projekty = () => {
                         <Item.Description style={{ marginTop: '15px'}}>
                             Praca nad tą aplikacją nie jest jeszcze skończona i w najbliższym czasie planuję dodać, na przykład, 
                             wtyczkę z wiadomościami z portali społecznościowch (np. Twitter) dla poszczególnych schronisk jeśli schronisko posiada aktywne konta w wybranym portalu,
-                            możliwość przekazania darowizny dla poszczególnych placówek, a także ulepszyć metodę autoryzacji w aplikacji (na wzór tej udostępnionej w niżej udostępnionym projekcie 'JWT Node').
+                            możliwość przekazania darowizny dla poszczególnych placówek, a także ulepszyć metodę autoryzacji JWT w aplikacji.
                         </Item.Description>
                         <Item.Extra>
                             <Button floated='right' color='green' style={{ marginTop: '15px', minWidth: '150px' }} as='a' href='https://www.linkedin.com/in/michalosinski91' target='blank'>
                                 <Icon style={{ marginBottom: 8 }} size='large' name='globe' /> Otwórz aplikację
                             </Button>
-                            <Button floated='right' color='black' style={{ marginTop: '15px', minWidth: '150px', fontSize: '14px' }} as='a' href='https://www.linkedin.com/in/michalosinski91' target='blank'>
+                            <Button floated='right' color='black' style={{ marginTop: '15px', minWidth: '150px', fontSize: '14px' }} as='a' href='https://github.com/michalosinski91/pet-adoption-client' target='blank'>
                                 <Icon style={{ marginBottom: 8 }} size='large' name='github square' inverted /> Zobacz kod aplikacji
                             </Button>
                         </Item.Extra>
