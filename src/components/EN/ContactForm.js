@@ -9,9 +9,58 @@ const ContactForm = () => {
     const [query, setQuery] = useState('')
     const [successMessage, setSuccessMessage] = useState('')
     const [errorMessage, setErrorMessage] = useState('')
+    const [nameValid, setNameValid] = useState(false)
+    const [emailValid, setEmailValid] = useState(false)
+
+    const checkEmail = arg => {
+        const re = /\S+@\S+\.\S+/
+        setEmailValid(re.test(arg))
+    }
+    const checkName = arg => {
+        const re = /^(\w+ ?)*$/i
+        setNameValid(re.test(name))
+    }
 
     const handleSubmit = event => {
         event.preventDefault()
+
+        if (!nameValid) {
+            setErrorMessage('The submitted name seems to contain forbidden character(s)')
+            setTimeout(() => {
+                setErrorMessage(null)
+            }, 6000)
+            return
+        }
+        if (!emailValid) {
+            setErrorMessage('The submitted email seems to be use incorrect format - it should look like xxxxx@xxxx.xxx')
+            setTimeout(() => {
+                setErrorMessage(null)
+            }, 6000)
+            return
+        }
+
+        if (name.length < 3) {
+            setErrorMessage('The submitted name seems to be too short - it should be at least 3 characters long')
+            setTimeout(() => {
+                setErrorMessage(null)
+            }, 6000)
+            return
+        }
+        if (email.length < 5) {
+            setErrorMessage('The submitted email seems to be too short - it should be at least 5 characters long')
+            setTimeout(() => {
+                setErrorMessage(null)
+            }, 6000)
+            return
+        }
+        if (query.length < 5) {
+            setErrorMessage('The submitted query seems to be too short - it should be at least 5 characters long')
+            setTimeout(() => {
+                setErrorMessage(null)
+            }, 6000)
+            return
+        }
+
         const formEntry = {
             name,
             email,
@@ -47,8 +96,14 @@ const ContactForm = () => {
                     Use the form for any of your enquiries
                 </Header>
                 <Form size='large' onSubmit={handleSubmit} style={{ marginTop: '50px'}}>
-                    <Form.Input label='Name' required value={name} onChange={({ target }) => setName(target.value)} />
-                    <Form.Input label='Email' required value={email} onChange={({ target }) => setEmail(target.value)} />
+                    <Form.Input label='Name' required value={name} onChange={({ target }) => {
+                        setName(target.value)
+                        checkName(target.value)
+                    }} />
+                    <Form.Input label='Email' required value={email} onChange={({ target }) => {
+                        setEmail(target.value)
+                        checkEmail(target.value)
+                    }} />
                     <Form.Input label='Telephone' value={telephone} onChange={({ target }) => setTelephone(target.value)} />
                     <Form.TextArea required label='Query' value={query} onChange={({ target }) => setQuery(target.value)} />
                     <Form.Button size='large' color='green' fluid type='submit'>Submit</Form.Button>
