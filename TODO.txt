@@ -1,4 +1,0 @@
-TODO:
-	Lint
-	Push to github
-	Deployment

@@ -15,7 +15,7 @@ const Projects = () => {
                         <Image src={screenshot} size='massive' />
                     </Modal>
                     <Item.Content>
-                        <Item.Header>Animal Shelter web app</Item.Header>
+                        <Item.Header>Znajdź Schronisko - Animal Shelter web app</Item.Header>
                         <Item.Meta>Environment: JavaScript, React, Apollo, GraphQL, MongoDB, Mongoose, GoogleMaps API, JWT, SemanticUI</Item.Meta>
                         <Item.Description style={{ marginTop: '15px'}}>
                             This application allows the user to view a map of Poland with pinponted location of nearly 100 real animal shelters. 
@@ -39,7 +39,7 @@ const Projects = () => {
                             and improvement to the JWT authorization/authentication flow.
                         </Item.Description>
                         <Item.Extra>
-                            <Button floated='right' color='green' style={{ marginTop: '15px', minWidth: '150px' }} as='a' href='https://www.linkedin.com/in/michalosinski91' target='blank'>
+                            <Button floated='right' color='green' style={{ marginTop: '15px', minWidth: '150px' }} as='a' href='https://znajdz-schronisko.herokuapp.com/' target='blank'>
                                 <Icon style={{ marginBottom: 8 }} size='large' name='globe' /> Open the app (Polish language only)
                             </Button>
                             <Button floated='right' color='black' style={{ marginTop: '15px', minWidth: '150px', fontSize: '14px' }} as='a' href='https://github.com/michalosinski91/pet-adoption-client' target='blank'>

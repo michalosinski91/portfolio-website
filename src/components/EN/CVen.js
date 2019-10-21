@@ -63,9 +63,9 @@ const CVen = () => {
                         <   span className='icon projectIcon'></span>Project
                         </h3>
                         <div className='section-subheading'>
-                            <h5 className='subheading'>Animal Shelters web application</h5>
+                            <h5 className='subheading'>Znajdź Schronisko - Animal Shelters web application</h5>
                             <p className='p-left-margin'><a className='link-black' href='https://github.com/michalosinski91/pet-adoption-client' target='blank'><span className='icon githubIcon'></span>View code</a></p>
-                            <p className='p-left-margin'><a className='link-black' href='#' target='blank'><span className='icon webIcon'></span>Open application</a></p>
+                            <p className='p-left-margin'><a className='link-black' href='https://znajdz-schronisko.herokuapp.com/' target='blank'><span className='icon webIcon'></span>Open application</a></p>
                         </div>
                         <p>
                             <u>Environment:</u> JavaScript, React, Apollo, GraphQL, MongoDB, Mongoose, 

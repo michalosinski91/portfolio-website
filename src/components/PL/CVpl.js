@@ -63,9 +63,9 @@ const CVpl = () => {
                         <   span className='icon projectIcon'></span>Projekt
                         </h3>
                         <div className='section-subheading'>
-                            <h5 className='subheading'>Portal schronisk dla zwierząt</h5>
+                            <h5 className='subheading'>Znajdź Schronisko - Portal schronisk dla zwierząt</h5>
                             <p className='p-left-margin'><a className='link-black' href='https://github.com/michalosinski91/pet-adoption-client' target='blank'><span className='icon githubIcon'></span>Zobacz kod</a></p>
-                            <p className='p-left-margin'><a className='link-black' href='#' target='blank'><span className='icon webIcon'></span>Zobacz aplikację</a></p>
+                            <p className='p-left-margin'><a className='link-black' href='https://znajdz-schronisko.herokuapp.com/' target='blank'><span className='icon webIcon'></span>Zobacz aplikację</a></p>
                         </div>
                         <p>
                             <u>Użyte technologie:</u> JavaScript, React, Apollo, GraphQL, MongoDB, Mongoose, 

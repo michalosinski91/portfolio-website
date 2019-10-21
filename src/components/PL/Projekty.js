@@ -15,7 +15,7 @@ const Projekty = () => {
                         <Image src={screenshot} size='massive' />
                     </Modal>
                     <Item.Content>
-                        <Item.Header>Portal schronisk dla zwierząt</Item.Header>
+                        <Item.Header>Znajdź Schronisko - Portal schronisk dla zwierząt</Item.Header>
                         <Item.Meta>Użyte technologie: JavaScript, React, Apollo, GraphQL, MongoDB, Mongoose, GoogleMaps API, JWT, SemanticUI</Item.Meta>
                         <Item.Description style={{ marginTop: '15px'}}>
                             W tej aplikacji użytkownik może zobaczyć mapę Polski z zaznaczonm położeniem prawie 100 prawdziwych schronisk dla zwierząt.
@@ -42,7 +42,7 @@ const Projekty = () => {
                             możliwość przekazania darowizny dla poszczególnych placówek, a także ulepszyć metodę autoryzacji JWT w aplikacji.
                         </Item.Description>
                         <Item.Extra>
-                            <Button floated='right' color='green' style={{ marginTop: '15px', minWidth: '150px' }} as='a' href='https://www.linkedin.com/in/michalosinski91' target='blank'>
+                            <Button floated='right' color='green' style={{ marginTop: '15px', minWidth: '150px' }} as='a' href='https://znajdz-schronisko.herokuapp.com/' target='blank'>
                                 <Icon style={{ marginBottom: 8 }} size='large' name='globe' /> Otwórz aplikację
                             </Button>
                             <Button floated='right' color='black' style={{ marginTop: '15px', minWidth: '150px', fontSize: '14px' }} as='a' href='https://github.com/michalosinski91/pet-adoption-client' target='blank'>
