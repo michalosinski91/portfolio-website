@@ -11,8 +11,6 @@
     "mongoose": "^5.7.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-pdf": "^4.1.0",
-    "react-read-pdf": "^2.0.9",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
     "semantic-ui-react": "^0.88.1"
@@ -38,8 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "semantic-ui-less": "^2.4.1"
   }
 }
