@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79794ebe.chunk.css",
+    "main.js": "/static/js/main.b4e1b7ae.chunk.js",
+    "main.js.map": "/static/js/main.b4e1b7ae.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.c82ec388.js",
+    "runtime~main.js.map": "/static/js/runtime~main.c82ec388.js.map",
+    "static/js/2.99c8a345.chunk.js": "/static/js/2.99c8a345.chunk.js",
+    "static/js/2.99c8a345.chunk.js.map": "/static/js/2.99c8a345.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1f7dd222887209a7b6ffe3fe17e60506.js": "/precache-manifest.1f7dd222887209a7b6ffe3fe17e60506.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.79794ebe.chunk.css.map": "/static/css/main.79794ebe.chunk.css.map",
+    "static/media/MOlogo.png": "/static/media/MOlogo.6dc7e8e6.png",
+    "static/media/apollo.png": "/static/media/apollo.4af8d68d.png",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.ffded238.svg",
+    "static/media/css.png": "/static/media/css.1f851630.png",
+    "static/media/express.svg": "/static/media/express.9de32921.svg",
+    "static/media/graphql.svg": "/static/media/graphql.d3cc50b0.svg",
+    "static/media/html.svg": "/static/media/html.9f2e1637.svg",
+    "static/media/javascript.svg": "/static/media/javascript.61ed8b05.svg",
+    "static/media/mongodb.png": "/static/media/mongodb.bca7dfdc.png",
+    "static/media/nodejs.svg": "/static/media/nodejs.9dfa0ae0.svg",
+    "static/media/project1.JPG": "/static/media/project1.cf3aff43.JPG",
+    "static/media/react.svg": "/static/media/react.71ccbc2f.svg",
+    "static/media/redux.png": "/static/media/redux.b4e23a50.png"
+  }
+}

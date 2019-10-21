@@ -2,6 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
+const path = require('path')
 const ContactEntry = require('./Model/ContactEntry')
 
 const app = express()
@@ -34,6 +35,10 @@ app.get('*', (req, res) => {
 })
 
 const PORT = process.env.PORT || 3001
+app.use(express.static(path.join(__dirname, 'build')))
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'))
+})
 
 app.listen(PORT, () => {
     console.log(`server running on port ${PORT}`)
